@@ -1,0 +1,81 @@
+//segitiga siku
+for(var t = 1; t <= 5; t++) {
+      var b = '';
+      for(var d = 1; d <= t; d++) {
+        var b = b + '*';
+      }
+      console.log(b);
+    }
+	
+console.log("\n");
+	
+//segitiga siku kebalik
+for(var t = 5; t > 0; t--) {
+      var b = '';
+      for(var c = 1; c <= t; c++) {
+        var b = b + '*';
+      }
+      console.log(b);
+    }
+	
+console.log('\n');
+
+//segitiga piramida
+ for (var t=1;t<=5;t++){
+		var b = '';
+        for (var c=t;c<=5;c++){
+           var b= b+ '_';
+        }
+        for (var a=1;a<=t;a++){
+            var b= b+ '*';	
+        }
+        for (var d=1;d<=t-1;d++){
+            var b=b +'*';
+        }
+        console.log(b);
+    }
+	
+console.log('\n');
+
+//segitiga siku beda sisi
+for (var t=1;t<=5;t++){
+		var x = '';
+        for (var y=t;y<=5;y++){
+             var x= x+ '_';
+        }
+        for (var z=1;z<=t;z++){
+             var x= x+ '*';
+        }
+        console.log(x);
+    }
+	
+console.log('\n');
+
+//segitiga siku kebalik sisi lain
+    for (var t=1;t<=5;t++){
+		var m = '';
+        for (var n=1;n<=t;n++){
+            var m= m+ '_';
+        }
+        for (var o=t;o<=5;o++){
+            var m= m+ '*';
+        }
+        console.log(m);
+    }
+	
+console.log('\n');
+
+//segitiga piramida tumplek
+for (var t=1;t<=5;t++){
+	var h = '';
+        for (var i=1;i<=t;i++){
+             var h= h+ '_';
+        }
+        for (var j=t;j<=5;j++){
+            var h= h+ '*';
+        }
+        for (var k=t+1;k<=5;k++){
+            var h= h+ '*';
+        }
+         console.log(h);
+    }
